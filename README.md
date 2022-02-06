@@ -1,2 +1,2 @@
 # ProgrammingPractice
-- personal repostiory where c, c++, python source codes for various examples and problems are stored
+- personal repostiory where c, c++, and python source codes for various examples and problems are stored
