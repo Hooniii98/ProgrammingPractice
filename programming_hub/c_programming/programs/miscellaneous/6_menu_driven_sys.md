@@ -68,5 +68,5 @@ void exit(int status)
 
 ### Parameters
 - **status**: This is the status value returned to the parent process.
-  1. **Exit Success**: It is indicated by `exit(0)`
-  2. **Exit Failure**: It is indicated by `exit(1)`. We can use different integer other than 1 to indicate different types of errors.
+ 1. **Exit Success**: It is indicated by `exit(0)`
+ 2. **Exit Failure**: It is indicated by `exit(1)`. We can use different integer other than 1 to indicate different types of errors.
