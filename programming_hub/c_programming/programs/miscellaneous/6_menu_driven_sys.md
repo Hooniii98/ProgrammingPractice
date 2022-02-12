@@ -53,6 +53,7 @@ int scanf(const char *format, ...)
 	|Standard input|stdin|Keyboard|
 	|Standard output|stdout|Screen|
 	|Standard error|stderr|Your screen|
+	
 	The file pointers defined in `<stdio.h>` are the means to access the file for reading and writing purpose.
 
 # C <stdlib.h> Library Function - exit()
@@ -67,5 +68,5 @@ void exit(int status)
 
 ### Parameters
 - **status**: This is the status value returned to the parent process.
-	1. **Exit Success**: It is indicated by `exit(0)`
-	2. **Exit Failure**: It is indicated by `exit(1)`. We can use different integer other than 1 to indicate different types of errors.
+1. **Exit Success**: It is indicated by `exit(0)`
+2. **Exit Failure**: It is indicated by `exit(1)`. We can use different integer other than 1 to indicate different types of errors.
