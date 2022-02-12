@@ -1,4 +1,4 @@
-﻿# C Library Function - Puts()
+﻿# C <stdio.h> Library Function - Puts()
 ### Declaration
 ```c
 int puts(const char *str)
