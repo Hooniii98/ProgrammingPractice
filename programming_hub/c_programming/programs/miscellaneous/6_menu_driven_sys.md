@@ -25,6 +25,7 @@ int scanf(const char *format, ...)
 	```
 	**Input**
 	`This is the value 100`
+	
 	**Output**
 	`Input value read : a = 100`
 - ```c
@@ -39,6 +40,7 @@ int scanf(const char *format, ...)
 	```
 	**Input**
 	`blablabla 25`
+	
 	**Output**
 	`Input value read : 25`
 	
