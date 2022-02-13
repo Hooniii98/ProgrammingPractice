@@ -20,9 +20,13 @@ int getchar(void)
 	}
 	```
 	**Input**
+	
 	`abcd`
+	
 	**Output**
+	
 	`a`
+	
 	**Explanation**: The first character in the stdin buffer is fetched by `getchar()`.
 
 - ```c
@@ -36,12 +40,16 @@ int getchar(void)
 	}
 	```
 	**Input**
+	
 	`abcd`
+	
 	**Output**
+	
 	```
 	a
 	b
 	```
+	
 	**Explanation**: The second `getchar()` fetches the character `b` from the stdin buffer automatically. If nothing was in the buffer, the program would wait for the user input.
 
 ### Buffer
