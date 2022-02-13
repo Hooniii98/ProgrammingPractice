@@ -8,7 +8,7 @@ int scanf(const char *format, ...)
 ```
 
 ### Parameters
-- **format**: This is the C string that contains one or mor of the following items - *Whitespace character*, *Non-whitespace character* and *Format specifiers*.
+- **format**: This is the C string that contains one or more of the following items - *Whitespace character*, *Non-whitespace character* and *Format specifiers*.
 
 ### Return Value
 - This function returns the whole number of characters written in it otherwise, returns a negative value.
