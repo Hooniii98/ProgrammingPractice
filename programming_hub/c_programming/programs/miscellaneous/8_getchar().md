@@ -55,7 +55,7 @@ int getchar(void)
 ### Buffer
 - It is a temporary storage area.
 - All standard input and output devices contain an input and output buffer.
-- In standard C/C++, streams are buffered, for example in the case of standard input, when we press the key on the keyboard, it isn't sent to your program, rather it is buffered by the operating system untill the time is allotted to that program.
+- In standard C/C++, streams are buffered, for example in the case of standard input, when we press the key on the keyboard, it isn't sent to your program, rather it is buffered by the operating system until the "Enter" key is pressed.
 
 	![Alt](https://flylib.com/books/4/330/1/html/2/files/08fig01.jpg)
 
