@@ -57,9 +57,9 @@ int getchar(void)
 - All standard input and output devices contain an input and output buffer.
 - In standard C/C++, streams are buffered, for example in the case of standard input, when we press the key on the keyboard, it isn't sent to your program, rather it is buffered by the operating system untill the time is allotted to that program.
 
-![Alt](https://flylib.com/books/4/330/1/html/2/files/08fig01.jpg)
+	![Alt](https://flylib.com/books/4/330/1/html/2/files/08fig01.jpg)
 
-![Alt](https://1.bp.blogspot.com/-xTzYa3qgRFQ/XbFVJRd9bhI/AAAAAAAACWk/3ooPQ2iCz-ksLUA1-SPtXhzHjCjZeI4dgCLcBGAsYHQ/s640/concept%257Eof%257Estream.jpg)
+	![Alt](https://1.bp.blogspot.com/-xTzYa3qgRFQ/XbFVJRd9bhI/AAAAAAAACWk/3ooPQ2iCz-ksLUA1-SPtXhzHjCjZeI4dgCLcBGAsYHQ/s640/concept%257Eof%257Estream.jpg)
 	
 
 # int main() vs. int main(void)
