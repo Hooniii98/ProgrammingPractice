@@ -16,7 +16,7 @@
 		```
 		These four char arrays are the same.
 		- Compiler allocates 12 consecutive bytes of memory and associates the address of the first allocated byte with `str1` which is a constant pointer.
-		![Alt](https://overiq.com/media/uploads/character-array-in-memory-1504599203175.png)
+		![GitHub-Mark-Light](https://overiq.com/media/uploads/character-array-in-memory-1504599203175.png)
 		- A character array may not include a null character at the end such as `char str1[2] = "Hi";`, but there will be problem when treating the char array as a string.
 	- ```c
 	  char *str2 = "Hello World";
