@@ -16,18 +16,18 @@
 		```
 		These four char arrays are the same.
 		- Compiler allocates 12 consecutive bytes of memory and associates the address of the first allocated byte with `str1` which is a constant pointer.
-		![Alt][https://overiq.com/media/uploads/character-array-in-memory-1504599203175.png]
+		![Alt](https://overiq.com/media/uploads/character-array-in-memory-1504599203175.png)
 		- A character array may not include a null character at the end such as `char str1[2] = "Hi";`, but there will be problem when treating the char array as a string.
 	- ```c
 	  char *str2 = "Hello World";
 		```
 		- Compiler allocates 12 consecutive bytes for string literal `"Hello World"` and 4 extra bytes for pointer variable `ptr`.
 		- The `char` pointer points to the address of `'H'`. `'\0'` is already included in the string
-		![Alt][https://overiq.com/media/uploads/2020/07/26/character-pointer-and-string-literal-1504599248003.png]
+		![Alt](https://overiq.com/media/uploads/2020/07/26/character-pointer-and-string-literal-1504599248003.png)
 		- the string value is stored in a read-only block (generally in text segment) which is why `str2[0] = 'a'` occurs a run time error. `const` is recommended at the declaration to avoid the run time error.
-		!{Alt][https://user-images.githubusercontent.com/42318591/111931296-46dac200-8afe-11eb-8ea9-7da9d9faff1a.png]
+		!{Alt](https://user-images.githubusercontent.com/42318591/111931296-46dac200-8afe-11eb-8ea9-7da9d9faff1a.png)
 		- `str1 == str2` (they are both pointers), the difference is `str2` can point to different addresses.
-		![Alt][https://media.geeksforgeeks.org/wp-content/cdn-uploads/CommonArticleDesign18-min.png]
+		![Alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/CommonArticleDesign18-min.png)
 		```c
 		char *str2 = {'H','e','l','l','o',' ','W','o','r','l','d','\0'};
 		//this doesn't compile
