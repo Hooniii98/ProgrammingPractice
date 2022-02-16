@@ -27,7 +27,7 @@
 		![Alt](https://overiq.com/media/uploads/2020/07/26/character-pointer-and-string-literal-1504599248003.png)
 		- the string value is stored in a read-only block (generally in text segment) which is why `str2[0] = 'a'` occurs a run time error. `const` is recommended at the declaration to avoid the run time error.
 		
-		![Alt](https://courses.engr.illinois.edu/cs225/sp2022/assets/notes/stack_heap_memory/memory_layout.png)
+		 ![Alt](https://courses.engr.illinois.edu/cs225/sp2022/assets/notes/stack_heap_memory/memory_layout.png)
 		- `str1 == str2` (they are both pointers), the difference is `str2` can point to different addresses.
 		![Alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/CommonArticleDesign18-min.png)
 		```c
