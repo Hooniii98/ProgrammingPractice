@@ -45,6 +45,7 @@ or
 char sports[5][15] = {{'g','o','l','f'},{'h','o','c','k','e','y'},{'f','o','o','t','b','a','l','l'},{'c','r','i','c','k','e','t'},{'s','h','o','o','t','i','n','g'}};
 ```
 This array is stored as follows:
+
 ![Alt](https://overiq.com/media/uploads/memory-representation-of-array-of-strings-1504599913892.png)
 As you can see, there are abundant null characters. Char Pointer Array lets you avoid this kind of situation.
 
