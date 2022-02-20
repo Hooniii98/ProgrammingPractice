@@ -66,7 +66,7 @@ If initialization of an array is done at the time of declaration then the size o
 ### Elements
 - Each element of the sports array earlier is a **string literal** and since a string literal points to the **base address** of the first character, the base type of each element of the array is `char*`.
 
-![Alt](https://overiq.com/media/uploads/memory-representation-of-array-of-pointers-1504599930139.png)
+	![Alt](https://overiq.com/media/uploads/memory-representation-of-array-of-pointers-1504599930139.png)
 - It is not guaranteed that the all the strings will be stored in contiguous memory locations.
 - A new string can be assigned as follows:
 	```c
