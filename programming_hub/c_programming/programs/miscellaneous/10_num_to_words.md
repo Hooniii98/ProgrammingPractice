@@ -30,10 +30,10 @@
 			![Alt](https://courses.engr.illinois.edu/cs225/sp2022/assets/notes/stack_heap_memory/memory_layout.png)
 		- `str1 == str2` (they are both pointers), the difference is `str2` can point to different addresses.
 		![Alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/CommonArticleDesign18-min.png)
-			```c
-			char *str2 = {'H','e','l','l','o',' ','W','o','r','l','d','\0'};
-			//this doesn't compile
-			```
+		```c
+		char *str2 = {'H','e','l','l','o',' ','W','o','r','l','d','\0'};
+		//this doesn't compile
+		```
 
 # Char Pointer Array
 An array of strings stores more than one string as follows:
