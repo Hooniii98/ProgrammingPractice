@@ -1,5 +1,6 @@
 #include <windows.h>  //enables Win32 API
 #include <stdio.h>
+#include <conio.h>  //defines "getch()"
 
 void setColor(int ForgC);
 
@@ -16,7 +17,7 @@ int main(void) {
     printf("\n\nColor Change: Programming Hub");
     setColor(76);
     printf("\n\nColor Change: Programming Hub");
-    getch();
+    getch();  //holds the console until the user presses any key on the keyboard
     
     return 0;
 }
