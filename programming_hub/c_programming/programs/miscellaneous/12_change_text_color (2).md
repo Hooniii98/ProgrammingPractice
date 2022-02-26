@@ -76,7 +76,7 @@ BOOL WINAPI GetConsoleScreenBufferInfo(
 );
 ```
 
-** Parameters**
+**Parameters**
 
 `hConsoleOutput` [in]: A handle to the console screen buffer. The handle must have the **GENERIC_READ** access right.
 `lpConsoleScreenBufferInfo` [out]: A pointer to a `CONSOLE_SCREEN_BUFFER_INFO` structure that receives the console screen buffer information.
