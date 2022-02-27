@@ -137,7 +137,7 @@ It maps two-dimensional logical address into one-dimensional physical address.
 	
 	![Alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2016/02/segmentation.png)
 	
-Translation of two-dimensional logical address to one-dimensional physical address.
+	Translation of two-dimensional logical address to one-dimensional physical address.
 
 ![Alt](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2016/02/Translation.png)
 
