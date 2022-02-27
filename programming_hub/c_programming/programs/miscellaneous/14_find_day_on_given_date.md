@@ -7,6 +7,7 @@ A typical memory representation of a C program consists of the following section
 5. Stack
 
 ![Alt](https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
+
 A typical memory layout of a **running process**
 
 ### 1. Text Segment
