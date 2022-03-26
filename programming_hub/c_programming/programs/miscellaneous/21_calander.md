@@ -128,6 +128,7 @@ Result:
 `numPtr2` is a pointer to pointer to integer.
 
 We can store a string in C using a character pointer or character array, however, using a character double pointer in C, we can store a list of strings.
+
 ![Alt](https://i.stack.imgur.com/z8osw.png)
 
 For example,
