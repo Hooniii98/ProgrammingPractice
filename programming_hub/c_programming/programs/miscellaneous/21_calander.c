@@ -31,7 +31,7 @@ void space(int n) {
 void init_months() {
     int i;
     
-    if((!(year % 4) && (year % 100)) || !(year % 400))
+    if((!(year % 4) && (year % 100)) || !(year % 400))  //check if it is a leap year
         months[1].days = 29;
     
     year--;
@@ -92,7 +92,7 @@ void print_row(int row) {
 void print_year() {
     int row;
     char buf[32];
-    sprintf(buf, "%d", year);
+    sprintf(buf, "%d", year);  //converts the integer to a string
     space((width - strlen(buf)) / 2);
     printf("%s\n\n", buf);
     for(row = 0; row * cols < 12; row++)
@@ -114,7 +114,7 @@ int main(int c, char **v) {
     }
     
     init_months();
-    print_year;
+    print_year();
     return 0;
     
     bail:
