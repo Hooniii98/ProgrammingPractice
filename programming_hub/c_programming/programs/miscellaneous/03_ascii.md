@@ -14,4 +14,4 @@ This is a basic data type in C  and further classified into an **integer type** 
 ### CRLF
 - CR and LF are **Escape Character** (control characters) than can be used to mark a line in a text file.
 - CR = **Carriage Return** (`\r`, `0x0D` in hexadecimal, 13 in decimal) moves the cursor to the beginning of the line without advancing to the next line.
-- LF = **Line Feed** (`\n`, `0x0A` in hexadecimal, 10 in decimal) moves the cursor down to the next line without returning tot he beginning of the line
+- LF = **Line Feed** (`\n`, `0x0A` in hexadecimal, 10 in decimal) moves the cursor down to the next line without returning to the beginning of the line
